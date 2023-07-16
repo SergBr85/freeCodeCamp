@@ -1,7 +1,9 @@
-// Setup
-let lastNameLength = 0;
-const lastName = "Lovelace";
-
-// Only change code below this line
-lastNameLength = lastName.length;
-console.log(lastNameLength);
+function simpleMultiplication(number) {
+	if (number % 2 == 0) {
+		number *= 8;
+		} else {
+		number *= 9;		
+	}
+	return(number);
+}
+simpleMultiplication(4)
