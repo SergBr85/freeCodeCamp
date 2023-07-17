@@ -1,5 +1,8 @@
-function getMiddle(s) {
-	console.log((s.length - 1)/2);
-	return s.length % 2 == 0? s[s.length/2-1]+s[s.length/2]: s[(s.length - 1)/2];
+function removeChar([...str]){
+	console.log(str)
+	str.pop();
+	str.shift();
+	
+	return str.join("");
 }
-console.log(getMiddle('teghjyklst'));
+console.log(removeChar('eloquent'))
