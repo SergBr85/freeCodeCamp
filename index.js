@@ -1,4 +1,4 @@
-function functionWithArgs(arg1,arg2 ) {
-	console.log(arg1, arg2)
+function timesFive(args) {
+	return args * 5;
 }
-functionWithArgs('fish', 'good')
+console.log(timesFive(5))
