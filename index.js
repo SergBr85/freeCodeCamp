@@ -1,8 +1,5 @@
-const summation = function (num) {
-	let sum = 0;
-	for(let i = 1;i <= num; sum += i, i++) {
-		console.log(i, sum)
-	}
-	return sum
+function getMiddle(s) {
+	console.log((s.length - 1)/2);
+	return s.length % 2 == 0? s[s.length/2-1]+s[s.length/2]: s[(s.length - 1)/2];
 }
-console.log(summation(1))
+console.log(getMiddle('teghjyklst'));
