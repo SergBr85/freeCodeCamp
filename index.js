@@ -1,9 +1,4 @@
-function simpleMultiplication(number) {
-	if (number % 2 == 0) {
-		number *= 8;
-		} else {
-		number *= 9;		
-	}
-	return(number);
+function functionWithArgs(arg1,arg2 ) {
+	console.log(arg1, arg2)
 }
-simpleMultiplication(4)
+functionWithArgs('fish', 'good')
