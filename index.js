@@ -1,8 +1,6 @@
-function removeChar([...str]){
-	console.log(str)
-	str.pop();
-	str.shift();
+function century(year) {
 	
-	return str.join("");
+	
+	
+	return;
 }
-console.log(removeChar('eloquent'))
