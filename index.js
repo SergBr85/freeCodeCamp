@@ -1,13 +1,7 @@
-function countSheeps(arr) {
-//	return arr.filter(Boolean).length;
-	return arr.filter(a =>a);
+function sumTwoSmallestNumbers(numbers) {  
+	numbers.sort((a,b) => a - b);
+	return numbers[0] + numbers[1]
 }
 
-let array1 = [true,  true,  true,  false,
-	true,  true,  true,  true ,
-	true,  false, true,  false,
-	true,  false, false, true ,
-	true,  true,  true,  true ,
-	false, false, true,  true ];
 
-	console.log(countSheeps(array1))
+console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]))
