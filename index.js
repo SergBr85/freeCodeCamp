@@ -1,8 +1,7 @@
-function countSheeps(arrayOfSheep) {
-	let sum = 0;
-	arrayOfSheep.forEach(value => { value? sum += 1:0})
-	return sum;
-};
+function countSheeps(arr) {
+//	return arr.filter(Boolean).length;
+	return arr.filter(a =>a);
+}
 
 let array1 = [true,  true,  true,  false,
 	true,  true,  true,  true ,
