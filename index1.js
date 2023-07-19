@@ -1,7 +1,10 @@
-function sumTwoSmallestNumbers(numbers) {  
-	numbers.sort((a,b) => a - b);
-	return numbers[0] + numbers[1]
+function repeatStr (n, s) {
+	let res = "";
+	for (let str = 0; str < n; str ++) {
+		res += s
+	}
+	return res
 }
 
 
-console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]))
+console.log(repeatStr(2, "ha "))
