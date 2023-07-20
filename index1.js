@@ -1,10 +1,6 @@
-function repeatStr (n, s) {
-	let res = "";
-	for (let str = 0; str < n; str ++) {
-		res += s
-	}
-	return res
+function maps(x){
+	return x.map(a => a*2);
+	
 }
 
-
-console.log(repeatStr(2, "ha "))
+console.log(maps([1, 2, 3]));
